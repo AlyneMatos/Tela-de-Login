@@ -1,0 +1,243 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  
+}
+
+#side {
+    max-width: 100%;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e1e1e;
+}
+
+.form {
+    background-color: #24221F;
+    padding: 5rem;
+    color: white;
+}
+
+.form header img {
+    position: absolute;
+}
+
+.form header h2 {
+    position: relative;
+    margin-left: 2rem;
+}
+
+.form header h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #AFB6C2;
+}
+
+header {
+    margin-bottom: 36px;
+}
+
+form div #senha, form div #email {
+    width: 100%;
+}
+
+form .email {
+    margin-bottom: 16px;
+}
+
+form .senha {
+    margin-bottom: 16px;
+}
+
+.lembrar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+
+.conta {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .conteudo {
+} */
+
+/* body {
+    background-color: #1e1e1e;
+
+}
+#logo {
+    position: absolute;
+    width: 115px;
+    height: 28px;
+    left: 40px;
+    top: 40px;
+}
+#side {
+    position: absolute;
+    width: 800px;
+    height: 1000px;
+    right: 0px;
+    top: 0px;    
+}
+div {
+    position: absolute;
+    background-color: #24221F;
+    width: 600px;
+    height: 485px;
+    top: 200px;
+    left: 250px; 
+    border-radius: 4px;
+}
+.titulo {
+    position: absolute;
+    width: 400px;
+    height: 56px;
+    left: 100px;
+    top: 10px;
+}
+
+.titulo img {
+    position: relative;
+}
+.sub-title{
+    width: 400px;
+    height: 56px;
+}
+#entrar{
+    width: 24px;
+    height: 24px;
+    left: 150px;
+    top: 10px;
+}
+.email {
+    position: absolute;
+    width: 400px;
+    height: 56px;
+    left: 100px;
+    top: 100px;
+    color: #AFB6C2;  
+}
+.login input{
+    position: absolute;
+    width: 400px;
+    height: 56px;
+    top: 47px; 
+
+    background-color: black;
+    border-radius: 4px;
+    border: 1px solid #868686;
+}
+.lembrar input{
+    position: absolute;
+    width: 24px;
+    height: 17px;
+    left: -9px;
+    top: -1px;
+    color: #AFB6C2;
+
+}
+.lembrar label{
+    position: absolute;
+    width: 400px;
+    height: 56px;
+    top: 2px;
+    left: 19px;
+}
+.senha {
+    position: absolute;
+    width: 400px;
+    height: 56px;
+    left: 100px;
+    top: 200px;
+    color: #AFB6C2;
+}
+.lembrar {
+    position: absolute;
+    width: 400px;
+    height: 56px;
+    left: 100px;
+    top: 312px;
+    color: #AFB6C2;
+}
+.esquecer {
+    position: absolute;
+    width: 400px;
+    height: 56px;
+    left: 300px;
+    top: 299px;
+
+    color: #FFC632;
+}
+p {
+    position: absolute;
+    width: 400px;
+    height: 56px;
+    left: 100px;
+    top: 420px; 
+    color: #FFC632;
+}
+button {
+    position: absolute;
+    width: 400px;
+    height: 56px;
+    left: 100px;
+    top: 366px; 
+
+    background-color: #FFC632;
+    border-radius: 4px;
+    border: 0;
+}
+h2 {
+    color: #D4CCB6;    
+}
+h4 {
+    color: #AFB6C2;
+}
+.email{
+    background-image: url(img/lock.svg);
+    
+} */
